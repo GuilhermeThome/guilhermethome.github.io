@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}
+
+#cartelas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cartela {
+  margin-bottom: 20px;
+}
+
+.coluna {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.celula {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 2px;
+}
+
+.sorteado {
+  background-color: yellow;
+}
+
+.bingo {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 2px;
+}
